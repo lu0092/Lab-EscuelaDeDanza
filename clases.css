@@ -1,0 +1,112 @@
+.menu{
+	text-align: center;
+	padding: 30px 0;
+}
+h1{
+	font-size: 26px;
+	color: #192951;
+}
+.clases li{
+	display: inline-block;
+	padding: 20px 0 10px 0;
+}
+.clases a{
+    text-decoration: none;
+    color:black;
+    padding: 40px;
+}
+.oferta-clases{
+	background-color: #F5F5F5;
+	background:contain;
+	text-align: center;
+	padding: 50px 0 50px 0;
+}
+h2{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.danza img{
+	width:350px;
+	height: 430px;
+	padding: 10px;
+}
+.danza li{
+	display: inline-block;
+}
+.interno{
+	width: 290px;
+	height: 110px;
+	background-color: black;
+	border:1px solid black;
+	color:white;
+	font-size: 11px;
+	padding: 25px;
+	position: absolute;
+	margin-top: -265px;
+	margin-left: 28px;
+	opacity: 0.7;
+}
+.interno h3{
+	padding-bottom:10px; 
+}
+.interno p{
+	font-size: 14px;
+}
+.fondo{
+	background-image: url("../img/shoes_1.jpg");
+	width: 700px;
+	height: 460px;
+	margin-left: 550px;
+	position:relative;
+}
+#titulo-cont{ 
+	font-size: 30px;
+	color:#192951;
+	margin: 50px 0 0 150px;
+	position: absolute;
+}
+#formulario{
+	margin-left: 150px;
+	margin-top: -350px;
+}
+#nombre{
+	opacity: 0.6;
+	padding: 10px 20px;
+	margin-top: 10px;
+}
+#submit_button{
+	background-color: #192951;
+	width: 480px;
+	height: 50px;
+	border-radius: 5px;
+	color:white;
+	left: 150px;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 150px;
+	opacity: 0.9;
+}
+
+input #nombre{
+	background:url("")no-repeat scroll 0 0 transparent;
+	border:1px solid green;
+	color:black;
+	padding: 5px 5px 5px 25px;
+	width: 230px;
+}
+.icon{
+	width: 17px;
+	position: absolute;
+	opacity: 0.6;
+	margin-left: -477px;
+	margin-top: 22px;
+}
+.pie-de-pagina{
+	background-color: #192951;
+	background-size: 100%;
+	background: contain;
+	color: white;
+	font-size: 12px;
+	padding: 25px 10px 20px 25px;
+	margin-top: 70px;
+}
