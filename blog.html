@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
+   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
 	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
@@ -11,17 +12,18 @@
 </head>
 <body>
 <div class="container-fluid">
-   <div class="menu">
-     <h1><strong>ESCUELA DE DANZA</strong></h1>
-	 <ul class="clases">
-		<li><a href="#">Nosotros</a></li>
-		<li><a href="#">Clases</a></li>
-		<li><a href="#">Blog</a></li>
-		<li><a href="#">Contàctanos</a></li>
-	 </ul>
-   </div>
+      <div class="row dont-move">
+         <a class="a-none-decoration" href=""><h2 class="menu text-center text-blue">ESCUELA DE DANZA</h2></a>
+         <ul class="text-center">
+            <li class="submenu"><a class="a-none-decoration text-gray" href="nosotros.html"
+            >Nosotros</a></li>
+            <li class="submenu"><a class="a-none-decoration text-gray" href="clases.html">Clases</a></li>
+            <li class="submenu"><a class="a-none-decoration text-gray" href="blog.html">Blog</a></li>
+            <li class="submenu"><a class="a-none-decoration text-gray" href="#contactanos">Contáctanos</a></li>
+         </ul>
+      </div>
    <div class="blog-danza">
-      <h2>BLOG</h2>
+      <h2 class="titulo-blog">BLOG</h2>
       <div class="blog1">
          <div class="row">
             <div class="col-3">
@@ -66,22 +68,32 @@
       </div>
    </div>
 
-   <div class="contacto-danza">
-      <p id="titulo-cont"><strong>Contáctanos</strong></p>
-            <div class="fondo"></div>
-            <form action="index.html" method="get" id="formulario">
+   <div class="row dont-move">
+         
+      <img class="zapatos" src="img/shoes1.jpg">
+      <div class="col-6">
+         <div class="pie" id="contactanos">
+         <p id="titulo-cont"><strong>Contáctanos</strong></p>
+               <form action="index.html" method="get" id="formulario">
                <p>
                 <input type="text" id="nombre" name="nombre" placeholder="Nombre" size="71"/>
+                <img class="icon" src="cabeza 1.png">
                </p>
                <p>
-                <input type="text" id="email" name="email" placeholder="Email" size="71"/>
+                <input type="text" id="nombre" name="email" placeholder="Email" size="71"/>
+                <img  class="icon" src="carta,png.png">
                </p>
                <p>
-                <textarea name="comentario" id="comentario" placeholder="Mensaje" cols="70" rows="6"></textarea>
+                <textarea name="comentario" id="nombre" placeholder="Mensaje" cols="70" rows="6"></textarea>
+                <img class="icon" src="pencil_4076.png">
                </p>
             </form>
             <input id="submit_button" type="submit" value="ENVIAR" />
+            </div>       
    </div>
+   <div class="col-6 ">    
+   </div>      
+      </div>
    <div class="pie-de-pagina">
         <p>© Escuela de danza. Todos los derechos reservados.</p>
    </div>
