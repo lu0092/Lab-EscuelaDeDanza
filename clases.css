@@ -74,6 +74,16 @@ h2{
 	padding: 10px 20px;
 	margin-top: 10px;
 }
+#email{
+	opacity: 0.6;
+	padding: 10px 20px;
+	margin-top: 10px;
+}
+#comentario{
+	opacity: 0.6;
+	padding: 10px 20px;
+	margin-top: 10px;
+}
 #submit_button{
 	background-color: #192951;
 	width: 480px;
@@ -86,20 +96,12 @@ h2{
 	margin-left: 150px;
 	opacity: 0.9;
 }
-
 input #nombre{
 	background:url("")no-repeat scroll 0 0 transparent;
 	border:1px solid green;
 	color:black;
 	padding: 5px 5px 5px 25px;
 	width: 230px;
-}
-.icon{
-	width: 17px;
-	position: absolute;
-	opacity: 0.6;
-	margin-left: -477px;
-	margin-top: 22px;
 }
 .pie-de-pagina{
 	background-color: #192951;
