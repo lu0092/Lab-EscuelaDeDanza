@@ -17,7 +17,7 @@ a {
 .inscribete {height: 40px;width: 55%;position: relative;top: 130px;}
 .boton {color: #c2c8d8;background-color: #192951;border: 1px solid #192951;}
 
-.clase1 {height: 350px;}
+.clase1 {height: 350px;width: 100%;}
 .julliart {padding: 70px 21%;font-size: 26px;}
 .contenedor-imagen {width: 10%;margin: -100px 45%;}
 .adorno {width: 100%;}
@@ -30,48 +30,47 @@ a {
 .instruc {width: 100%;height: 100%;font-size: 20px;}
 
 .danza{	font-size: 40px;padding: 7% 15%;}
-.clase2 {height: 270px;}
+.clase2 {height: 270px;width: 100%}
 .fondo-azul {background-color: #192951;height: 450px;}
 .texto {width: 80%;margin: 80px 50px 0 50px;}
 .visita {width: 20%;margin: 0px 50px;font-size: 15px;}
 .mapa {margin-top: 50px;}
 
 .fondo{
-	background-image: url("../img/shoes_1.jpg");
-	background-repeat: no-repeat;
+	border: 1px solid black;
 	width: 100%;
-	height: 460px;
-	margin-left: 550px;
-	position:relative;
-}
-.contacto-danza {
-	position: relative;
-}
+	height: 500px;
+	position: absolute;
+	}
+.zapatos {
+	width: 50%;
+	right: 10%;
+	position: relative;}
+
 #titulo-cont{ 
 	font-size: 30px;
 	color:#192951;
-	margin: 50px 0 0 150px;
-	position: absolute;
+	margin: 50px 0 0 30%;
+	position: relative;
 }
 #formulario{
-	margin-left: 150px;
-	margin-top: -350px;
+	margin-left: 30%;
 }
 #nombre{
 	opacity: 0.6;
 	padding: 10px 20px;
 	margin-top: 10px;
+	width: 100%;
 }
 #submit_button{
 	background-color: #192951;
-	width: 480px;
+	width: 70%;
 	height: 50px;
 	border-radius: 5px;
 	color:white;
-	left: 150px;
 	text-align: center;
 	margin-top: 15px;
-	margin-left: 150px;
+	margin-left: 30%;
 	opacity: 0.9;
 }
 
@@ -80,14 +79,18 @@ input #nombre{
 	border:1px solid green;
 	color:black;
 	padding: 5px 5px 5px 25px;
-	width: 230px;
+	width: 90%;
 }
 .icon{
 	width: 17px;
 	position: absolute;
 	opacity: 0.6;
-	margin-left: -477px;
-	margin-top: 22px;
+	margin-left: -342px;
+	margin-top: 20px;
+}
+.pie {
+	position: relative;
+	margin: 0;
 }
 .pie-de-pagina{
 	background-color: #192951;
@@ -97,4 +100,8 @@ input #nombre{
 	font-size: 12px;
 	padding: 25px 10px 20px 25px;
 	margin-top: 70px;
+	width: 100%;
+}
+.dont-move {
+	position: static;
 }
