@@ -95,7 +95,7 @@ input #nombre{
 .pie-de-pagina{
 	background-color: #192951;
 	background-size: 100%;
-	background: contain;
+	background: cover;
 	color: white;
 	font-size: 12px;
 	padding: 25px 10px 20px 25px;

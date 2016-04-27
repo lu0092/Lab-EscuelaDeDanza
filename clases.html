@@ -3,24 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
 	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
-	<link rel="stylesheet" type="text/css" href="css/clases.css">
+	<link rel="stylesheet" type="text/css" href="css/clase.css">
 </head>
 <body>
-   <div class="menu">
-     <h1><strong>ESCUELA DE DANZA</strong></h1>
-	 <ul class="clases">
-		<li><a href="#">Nosotros</a></li>
-		<li><a href="#">Clases</a></li>
-		<li><a href="#">Blog</a></li>
-		<li><a href="#">Contàctanos</a></li>
-	 </ul>
-   </div>
-   <div class="oferta-clases">
-      <h2>OFERTA DE CLASES</h2>
+	<div class="container-fluid">
+		<div class="row dont-move">
+			<a class="a-none-decoration" href=""><h2 class="menu text-center text-blue">ESCUELA DE DANZA</h2></a>
+			<ul class="text-center">
+				<li class="submenu"><a class="a-none-decoration text-gray" href="nosotros.html"
+				>Nosotros</a></li>
+				<li class="submenu"><a class="a-none-decoration text-gray" href="clases.html">Clases</a></li>
+				<li class="submenu"><a class="a-none-decoration text-gray" href="blog.html">Blog</a></li>
+				<li class="submenu"><a class="a-none-decoration text-gray" href="#contactanos">Contáctanos</a></li>
+			</ul>
+		</div>
+		<div class="oferta-clases">
+      <h2 class="offer" >OFERTA DE CLASES</h2>
       <div class="danza">
       	<li><img src="img/dance_12.jpg"><div class="interno"><h3>BALLET</h3><p>El baile es la base de casi todos los estilos de baile</p></div></li>
       	<li><img src="img/breakdance.jpg"><div class="interno"><h3>DANCE MODERM</h3><p>Descripciòn del curso en dos lineas como màximo </p></div></li>
@@ -34,10 +37,12 @@
       	</ul>
       </div>	
    </div>
-   <div class="contacto-danza">
-      <p id="titulo-cont"><strong>Contáctanos</strong></p>
-            <div class="fondo"></div>
-            <form action="index.html" method="get" id="formulario">
+		<div class="row dont-move">
+		<img class="zapatos" src="img/shoes1.jpg">
+		<div class="col-6">
+			<div class="pie" id="contactanos">
+			<p id="titulo-cont"><strong>Contáctanos</strong></p>
+               <form action="index.html" method="get" id="formulario">
                <p>
                 <input type="text" id="nombre" name="nombre" placeholder="Nombre" size="71"/>
                 <img class="icon" src="cabeza 1.png">
@@ -52,9 +57,14 @@
                </p>
             </form>
             <input id="submit_button" type="submit" value="ENVIAR" />
+            </div>		 
    </div>
-   <div class="pie-de-pagina">
+   <div class="col-6 ">   	
+   </div>   	
+   	</div>
+	<div class="pie-de-pagina">
       <p>© Escuela de danza. Todos los derechos reservados.</p>
    </div>
-</body>
+	</div>
+	</body>
 </html>
