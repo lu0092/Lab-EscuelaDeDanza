@@ -1,0 +1,97 @@
+.studio {width: 26%; position: center; padding:60px; margin-left: 40px;margin-top: 150px; color: #c2c8d8; position: relative;}
+.studio-titulo {font-size: 70px; padding-bottom: 20px;position: absolute;}
+.studio-text {line-height: 1.5; font-size: 14px;position: relative;top: 100px;}
+.inscribete {height: 40px;width: 55%;position: relative;top: 130px;}
+.boton {color: #c2c8d8;background-color: #192951;border: 1px solid #192951;}
+
+.clase1 {height: 350px;width: 100%;}
+.julliart {padding: 70px 21%;font-size: 26px;}
+.contenedor-imagen {width: 10%;margin: -100px 45%;}
+.adorno {width: 100%;}
+.oferta-clases {width: 20%;height: 50px;margin: 100px 40%;border-radius: 3%;font-size: 15px;}
+
+.izq {background-image: url(../img/instructor_4.jpg);height: 300px;background-size: cover;top: 20px;}
+.der {background-image: url(../img/profesor_9.jpg);height: 300px;background-size: cover;}
+.instructores {border: 2px solid #000;}
+.boton-ni {width: 40%;height: 61px;position: absolute;left: 30%;top: 241px;}
+.instruc {width: 100%;height: 100%;font-size: 20px;}
+
+.danza{	font-size: 40px;padding: 7% 15%;}
+.clase2 {height: 270px;width: 100%}
+.fondo-azul {background-color: #192951;height: 450px;}
+.texto {width: 80%;margin: 80px 50px 0 50px;}
+.visita {width: 20%;margin: 0px 50px;font-size: 15px;}
+.mapa {margin-top: 50px;}
+
+.fondo{
+	border: 1px solid black;
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	}
+.zapatos {
+	width: 50%;
+	right: 10%;
+	position: relative;}
+
+#titulo-cont{ 
+	font-size: 30px;
+	color:#192951;
+	margin: 50px 0 0 30%;
+	position: relative;
+}
+#formulario{
+	margin-left: 30%;
+}
+#nombre{
+	opacity: 0.6;
+	padding: 10px 20px;
+	margin-top: 10px;
+	width: 100%;
+}
+#submit_button{
+	background-color: #192951;
+	width: 70%;
+	height: 50px;
+	border-radius: 5px;
+	color:white;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 30%;
+	opacity: 0.9;
+}
+
+input #nombre{
+	background:url("")no-repeat scroll 0 0 transparent;
+	border:1px solid green;
+	color:black;
+	padding: 5px 5px 5px 25px;
+	width: 90%;
+}
+.icon{
+	width: 17px;
+	position: absolute;
+	opacity: 0.6;
+	margin-left: 3px;
+	margin-top: -29px;
+}
+.icon-pen {
+	margin-top: -110px;
+}
+.pie {
+	position: relative;
+	margin: 0;
+}
+.pie-de-pagina{
+	background-color: #192951;
+	background-size: 100%;
+	background: cover;
+	color: white;
+	font-size: 12px;
+	padding: 25px 10px 20px 25px;
+	margin-top: 70px;
+	width: 100%;
+}
+.dont-move {
+	position: static;
+}

@@ -12,16 +12,20 @@
 </head>
 <body>
 <div class="container-fluid">
-        <div class="row dont-move">
-            <a class="a-none-decoration" href="index.html"><h2 class="menu text-center text-blue">ESCUELA DE DANZA</h2></a>
-            <ul class="text-center">
-                <li class="submenu"><a class="a-none-decoration text-gray" href="nosotros.html"
-                >Nosotros</a></li>
-                <li class="submenu"><a class="a-none-decoration text-gray" href="clases.html">Clases</a></li>
-                <li class="submenu"><a class="a-none-decoration text-gray" href="blog.html">Blog</a></li>
-                <li class="submenu"><a class="a-none-decoration text-gray" href="#contactanos">Contáctanos</a></li>
+        <header>
+            <nav>
+        <a class="a-none-decoration" href="index.html"><h2 class="menu text-center text-blue">ESCUELA DE DANZA</h2></a>
+            <div id="ejemplo3" class="ejemplo-wrapper">
+            <ul id="ejm3">
+            <li><a href="nosotros.html" title="Nosotros"><span>Nosotros</span></a></li>
+            <li><a href="clases.html" title="Clases"><span>Clases</span></a></li>
+            <li><a href="blog.html" title="Blog"><span>Blog</span></a></li>
+            <li><a href="#contactanos" title="Contactanos"><span>Contactanos</span></a></li>
             </ul>
-        </div>
+        <div class="clearfix"></div>
+    </div>
+            </nav>
+        </header>
     <div class="nosotros">
        <div class="interno">
        	   <h1 class="titu-nosotros"><strong>SOBRE NOSOTROS</strong></h1>
@@ -93,24 +97,24 @@
     	</div>
     	<h2 class="frase"><em>"Otra frase inspiradora larga"</em></h2>
     </div>
-    <div class="row dont-move">
+    <div class="row dont-move" id="contactanos">
             
         <img class="zapatos" src="img/shoes1.jpg">
         <div class="col-6">
-            <div class="pie" id="contactanos">
+            <div class="pie">
             <p id="titulo-cont"><strong>Contáctanos</strong></p>
                <form action="index.html" method="get" id="formulario">
                <p>
                 <input type="text" id="nombre" name="nombre" placeholder="Nombre" size="71"/>
-                <img class="icon" src="cabeza 1.png">
+                <img class="icon" src="img/cabeza 1.png">
                </p>
                <p>
                 <input type="text" id="nombre" name="email" placeholder="Email" size="71"/>
-                <img  class="icon" src="carta,png.png">
+                <img  class="icon" src="img/carta,png.png">
                </p>
                <p>
                 <textarea name="comentario" id="nombre" placeholder="Mensaje" cols="70" rows="6"></textarea>
-                <img class="icon" src="pencil_4076.png">
+                <img class="icon icon-pen" src="img/pencil_4076.png">
                </p>
             </form>
             <input id="submit_button" type="submit" value="ENVIAR" />

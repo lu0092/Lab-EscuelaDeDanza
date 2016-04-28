@@ -1,0 +1,189 @@
+.nosotros{
+	background-image: url("../img/dance_7cort2.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 400px;
+	position: relative;
+	top:170px;
+}
+.interno{
+	width: 550px;
+	height: 200px;
+	border:1px solid black;
+	background:black;
+	opacity: 0.5;
+	text-align: center;
+	position: absolute;
+	margin-top: 105px;
+	margin-left: 340px;
+}
+.titu-nosotros{
+    color: white;
+    font-size: 22px;
+    padding: 30px 0 10px 0;
+    opacity: none;
+}
+.parrafo-nosotros{
+	color: white;
+	font-size: 16px;
+	padding: 10px 20px 20px 20px;
+}
+.fondo-nosotros{
+    background-image: url("../img/cubes.png");
+	margin-top: -20px;
+	position: relative;
+	top: 170px;
+} 
+.pilares{
+	margin:0 100px; 
+	text-align: center;
+	color: rgb(83, 88, 95);
+}
+.cuadro{
+	height:200px;
+	width: 300px;
+	text-align: center;
+	margin: 60px 20px;
+	display: inline-block;
+	padding:20px; 
+}
+.cuadro hr{
+	border:1px solid rgb(83, 88, 95);
+	width: 240px;
+	margin-left: 10px;
+}
+.instructores{
+	background-color:white;
+	background-size: 100%;
+	background:contain;
+}
+.name-instructores{
+	font-size: 24px;
+	text-align: center;
+	padding: 50px 0;
+}
+.profesores{
+	text-align: center;
+}
+.profesores div{
+	background-size: 100%;
+	height: 200px;
+	width: 250px;
+	display: inline-block;
+	margin-bottom: 130px;
+	position: relative;
+	margin-right: 11px;
+}
+.profe1{
+	background-image: url("../img/profesor_4.jpg");
+}
+.profe2{
+	background-image: url("../img/profesor_14.jpg");
+}
+.profe3{
+	background-image: url("../img/profesor_1.jpg");
+}
+.profe4{
+	background-image: url("../img/profesor_10.jpg");
+}
+.profe5{
+	background-image: url("../img/profesor_11.jpg");
+}
+.profe6{
+	background-image: url("../img/profesor_12.jpg");
+}
+.profe7{
+	background-image: url("../img/profesor_9.jpg");
+}
+.profe8{
+	background-image: url("../img/profesor_15.jpg");
+}
+.letra{
+	font-size:14px;
+	position: relative;
+	top: 200px;
+	padding: 10px 20px 5px 0; 
+	text-align: left;
+}
+.frase{
+	font-size: 35px;
+	padding: 100px 0;
+	text-align: center;
+	position: relative;
+}
+
+
+.fondo{
+	border: 1px solid black;
+	width: 100%;
+	height: 700px;
+	position: absolute;
+	top: 170px;
+	}
+.zapatos {
+	width: 50%;
+	right: 10%;
+	position: relative;}
+
+#titulo-cont{ 
+	font-size: 30px;
+	color:#192951;
+	margin: 50px 0 0 30%;
+	position: relative;
+}
+#formulario{
+	margin-left: 30%;
+}
+#nombre{
+	opacity: 0.6;
+	padding: 10px 20px;
+	margin-top: 10px;
+	width: 100%;
+}
+#submit_button{
+	background-color: #192951;
+	width: 70%;
+	height: 50px;
+	border-radius: 5px;
+	color:white;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 30%;
+	opacity: 0.9;
+}
+
+input #nombre{
+	background:url("")no-repeat scroll 0 0 transparent;
+	border:1px solid green;
+	color:black;
+	padding: 5px 5px 5px 25px;
+	width: 90%;
+}
+.icon{
+	width: 17px;
+	position: absolute;
+	opacity: 0.6;
+	margin-left: 3px;
+	margin-top: -29px;
+}
+.icon-pen {
+	margin-top: -110px;
+}
+.pie {
+	position: relative;
+	margin: 0;
+}
+.pie-de-pagina{
+	background-color: #192951;
+	background-size: 100%;
+	background: cover;
+	color: white;
+	font-size: 12px;
+	padding: 25px 10px 20px 25px;
+	margin-top: 200px;
+	width: 100%;
+}
+.dont-move {
+	position: relative;
+	top: 170px;
+}

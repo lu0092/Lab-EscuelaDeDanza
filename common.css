@@ -1,0 +1,77 @@
+.body {
+	font-family: "Montserrat";
+}
+ul>li {
+	list-style:none;
+}
+a {
+	text-decoration: none;
+}
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+p {
+	margin-bottom: 20px;
+	}
+.contenido
+	{padding-top: 150px;}
+nav {
+	float: left;
+	background: #FFF;
+	width: 100%;
+	height: 150px;
+}
+nav ul {
+	list-style:none;
+	overflow:hidden;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+nav ul li {
+	float: left;
+	font-family: Sans-Serif;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+nav ul li a {
+	display: inline-block;
+}
+
+.clearfix::after {clear: both; content: " ";display: block;font-size: 0px; height: 0px;line-height: 0; visibility: hidden; width: 0px;}
+    .clearfix::before, .clearfix::after { content: " ";  display: table;}
+    .ejemplo-wrapper{margin-bottom:110px;}
+
+ul#ejm3 li a{
+        position: relative;
+        color:#FFF;
+        overflow:hidden;
+    }
+    ul#ejm3 li a:before{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        padding: 10px 20px;
+        background: none repeat scroll 0% 0% #FFF;
+        color: #192951;
+        content: attr(title);
+        transition: transform 0.3s ease 0s;
+    }
+    ul#ejm3 li a span{
+        display: block;
+        position: relative;
+        padding: 10px 20px;
+        background: none repeat scroll 0% 0% #192951;
+        transition: transform 0.3s ease 0s;
+        z-index: 2;
+    }
+
+    ul#ejm3 li a:hover span,ul#ejm3 li a:focus span{
+        transform: translateX(100%);
+    }
+.menu {	margin-top: 20px;padding-bottom: 20px;padding-top: 10px;}
+.submenu {margin: 30px 35px;}
+.cabeza {background-image: url(../img/dance_1.jpg);	width: 100%;height: 380px;background-size: cover;}

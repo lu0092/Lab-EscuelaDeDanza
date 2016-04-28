@@ -1,0 +1,124 @@
+.blog-danza{
+	background-color: rgb(244, 244, 244);
+	background:contain;
+	padding: 200px 0 30px 0;
+}
+.titulo-blog{
+	font-size: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.blog1{
+	background-color:#dcdfdc;
+	background: contain;
+	margin:0 150px 0 150px;
+	font-size: 13px;
+	margin-bottom: 40px;
+}
+.blog1 img{
+	width: 230px;
+    height: 227px;
+    margin-left: 0;
+}
+.imagen{
+	margin-left: 0;
+	width: 230px;
+	height: 217px;
+}
+.col-9{
+	padding-left: 30px;
+}
+h3{
+	font-size: 14px;
+	padding:30px 0 0 0; 
+}
+h4{
+	padding:5px 0;
+	color: gray;
+}
+.boton-mas{
+	width: 200px;
+	height: 40px;
+	border:1px solid #192951;
+	border-radius: 5px;
+	background-color: #192951;
+	text-align: center;
+	margin: 20px 0 10px 0;
+	padding: 10px;
+}
+.boton-mas a{
+	text-decoration: none;
+	color: white;
+}
+.fondo{
+	border: 1px solid black;
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	}
+.zapatos {
+	width: 50%;
+	right: 10%;
+	position: relative;}
+
+#titulo-cont{ 
+	font-size: 30px;
+	color:#192951;
+	margin: 50px 0 0 30%;
+	position: relative;
+}
+#formulario{
+	margin-left: 30%;
+}
+#nombre{
+	opacity: 0.6;
+	padding: 10px 20px;
+	margin-top: 10px;
+	width: 100%;
+}
+#submit_button{
+	background-color: #192951;
+	width: 70%;
+	height: 50px;
+	border-radius: 5px;
+	color:white;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 30%;
+	opacity: 0.9;
+}
+
+input #nombre{
+	background:url("")no-repeat scroll 0 0 transparent;
+	border:1px solid green;
+	color:black;
+	padding: 5px 5px 5px 25px;
+	width: 90%;
+}
+.icon{
+	width: 17px;
+	position: absolute;
+	opacity: 0.6;
+	margin-left: 3px;
+	margin-top: -29px;
+}
+.icon-pen {
+	margin-top: -110px;
+}
+.pie {
+	position: relative;
+	margin: 0;
+}
+.pie-de-pagina{
+	background-color: #192951;
+	background-size: 100%;
+	background: cover;
+	color: white;
+	font-size: 12px;
+	padding: 25px 10px 20px 25px;
+	margin-top: 70px;
+	width: 100%;
+}
+#dont-move {
+	padding-top: 100px;
+}
